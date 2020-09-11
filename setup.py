@@ -5,7 +5,7 @@ with open('README.md','r') as f:
 
 setuptools.setup(
     name = 'VectorsPY',
-    version='0.0.3',
+    version='1.0.0',
     author = 'Aryansh Gupta',
     author_email = 'Aryanshappmaker@gmail.com',
     description = 'Python Module to allow the use of Vectors',

@@ -8,6 +8,10 @@ Python module to use Vector2 and Vector3 (as in Unity Game Engine - C#) in Pytho
 - Get Magnitude of Vector Object<br>
 and much more
 
+## What's New In this Version
+- Function ```dot()``` to calculate Dot (Scaler) Product.
+- Function ```cross()``` to calculate Cross (Vector) Product.
+- ```.direction()``` attribute to get dirction of Vector2.
 
 ## Installation
 
