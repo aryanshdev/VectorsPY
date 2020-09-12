@@ -78,11 +78,12 @@ Arithmetic Operations
 ----------------------
 Vector Objects can be added and Subtracted in the same way as other DataTypes in Python
 using ``+`` and ``-`` operator respectively. These Operations return a tuple of **cartesian sum**.
-..warning::
-    Addition and Subtraction here is not a Vector Addition or Substraction, and only provides correct result
-    for Cartesian Addition.
 
-.. code-block:: python
+.. warning::
+    Addition and Subtraction here is not a Vector Addition or Substraction, 
+    and only provides correct result for Cartesian Addition.
+
+::
     v = Vector3(1,2,3)
     v1 = Vector3(4,5,6)
     print(v+v1)   #outputs => (5,7,9)
