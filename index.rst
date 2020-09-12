@@ -2,12 +2,23 @@
 VectorsPY
 ***********
 
+
+VectorsPY is utility module for using Physics Vectors in Python.
+It allows you to define 2D and 3D Vectors in Python.
+It also provides multiple methods that can be used along Vectors to make their usage more useful amd meaning
+
+
+.. contents:: Table of Contents
+    :local:
+
 Getting Started
 ###############
 
 To start using VectorsPY on your system, you need to install it using ``pip``
 
-``pip install VectorsPY``
+.. code-block:: console
+
+     pip install twine
 
 You can visit `PYPI <https://pypi.org/project/VectorsPY/>`_ to get older versions of module or to install it using wheel
 
