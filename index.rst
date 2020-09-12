@@ -75,7 +75,7 @@ To create Vector from List, Tuple (iterables) use Miscellaneous function **Vecto
 Properties and Methods
 ########################
 
-By default, Vector objects have following Attributes :-
+Vector objects have following Attributes :-
 
 - xcor 
 - ycor
@@ -87,3 +87,12 @@ By default, Vector objects have following Attributes :-
 Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value **i**, **j**, **k** repectively.
 
 And **x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be defined during Vector defination*.
+
+The following functions are defined for both **Vector2** and **Vector3** class :-
+
+- ``.value()``
+- ``.cartisian()``
+- ``.magnitude()``
+- ``.unitvector()``
+
+All These Methods are discussed in upcoming Sections
