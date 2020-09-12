@@ -1,4 +1,0 @@
-***********
-VectorsPY
-***********
-``import VectorsPY``
