@@ -67,10 +67,10 @@ Properties and Methods
 By default, Vector objects have following Attributes :
 * xcor 
 * ycor
-* zcor *(only i **Vector3**)*
+* zcor *(only for **Vector3**)*
 * x
 * y
-- z
+* z *(only for **Vector3**)*
 
 Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value 
 | **i**, **j**, **k** repectively.
