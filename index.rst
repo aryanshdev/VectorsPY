@@ -81,7 +81,8 @@ using ``+`` and ``-`` operator respectively. These Operations return a tuple of 
 ..warning::
     Addition and Subtraction here is not a Vector Addition or Substraction, and only provides correct result
     for Cartesian Addition.
-::
+
+.. code-block:: python
     v = Vector3(1,2,3)
     v1 = Vector3(4,5,6)
     print(v+v1)   #outputs => (5,7,9)
@@ -98,7 +99,7 @@ Python.
 - > returns True if all values of First are greater than the values of Second Vector, else False
 - <= returns True if all values of First are smaller or equal than the values of Second Vector, else False
 - >= returns True if all values of First are greater or equal than the values of Second Vector, else False
-::
+.. code-block:: python
     v = Vector3(1,2,3)
     v1 = Vector3(2,5,6)
     v2 = Vector([1,2,3])
