@@ -53,8 +53,8 @@ To create new 2D Vector use **Vector2** class.
    new2DVector = Vector2(x_value, y_value)
 
 Similarly use **Vector3** to create 3D Vector.
-::
-   new3DVector = Vector3(x_value, y_value, z_value)
+:: 
+  new3DVector = Vector3(x_value, y_value, z_value)
 
 
 To create Vector from List, Tuple (iterables) use Miscellaneous function **Vector**. This will return a new **Vector2** or **Vector3** object based on iterable passed as argument.
@@ -76,13 +76,14 @@ Properties and Methods
 ########################
 
 By default, Vector objects have following Attributes :-
+
 - xcor 
 - ycor
-- zcor *(only for **Vector3**)*
+- zcor *(only for Vector3)*
 - x
 - y
-- z *(only for **Vector3**)*
+- z *(only for Vector3)*
 
-Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value 
-| **i**, **j**, **k** repectively.
-| **x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be |d koefined during Vector defination*.
+Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value **i**, **j**, **k** repectively.
+
+And **x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be defined during Vector defination*.
