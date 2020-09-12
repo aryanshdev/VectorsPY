@@ -8,7 +8,7 @@ It allows you to define 2D and 3D Vectors in Python.
 It also provides multiple methods that can be used along Vectors to make their usage more useful amd meaning
 
 
-.. contents:: Table of Contents
+.. contents:: Skip To Topic
     :local:
 
 Getting Started
