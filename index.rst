@@ -71,6 +71,13 @@ To create Vector from List, Tuple (iterables) use Miscellaneous function **Vecto
 
     iterable4 = [3,4,5]
     newVector4 = Vector(iterable4) #new Vector3 object from list
+    
+Operations on Vectors
+######################
+Arithmetic Operations
+----------------------
+Vector Objects can be added and Subtracted in the same way as other DataTypes in Python
+using ``+`` and ``-`` operator respectively.
 
 Attributes and Methods
 ########################
