@@ -18,7 +18,7 @@ To start using VectorsPY on your system, you need to install it using ``pip``
 
 .. code-block:: console
 
-     pip install twine
+     pip install VectorsPY
 
 You can visit `PYPI <https://pypi.org/project/VectorsPY/>`_ to get older versions of module or to install it using wheel
 
@@ -75,13 +75,13 @@ To create Vector from List, Tuple (iterables) use Miscellaneous function **Vecto
 Properties and Methods
 ########################
 
-By default, Vector objects have following Attributes :
-* xcor 
-* ycor
-* zcor *(only for **Vector3**)*
-* x
-* y
-* z *(only for **Vector3**)*
+By default, Vector objects have following Attributes :-
+- xcor 
+- ycor
+- zcor *(only for **Vector3**)*
+- x
+- y
+- z *(only for **Vector3**)*
 
 Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value 
 | **i**, **j**, **k** repectively.
