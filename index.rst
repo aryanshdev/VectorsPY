@@ -28,18 +28,17 @@ Start Using VectorsPY
 
 To start using VectorsPY in your project, you need to import it using conventional commands
 
-::
-  import VectorsPY
+``import VectorsPY``
 
 To import as Variable 
 
-::
-  import VectorsPY as <alias name>
+
+``import VectorsPY as <alias name>``
 
 To import any specific function/class use
 
-::
-  from VectorsPY import <Function/Class Name>(,<Second Function/Class Name,...)
+
+``from VectorsPY import <Function/Class Name>(,<Second Function/Class Name,...)``
 
 Creating Vector Object
 #######################
