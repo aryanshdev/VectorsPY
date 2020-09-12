@@ -5,7 +5,7 @@ VectorsPY
 
 VectorsPY is utility module for using Physics Vectors in Python.
 It allows you to define 2D and 3D Vectors in Python.
-It also provides multiple methods that can be used along Vectors to make their usage more useful amd meaning
+It also provides multiple methods that can be used along Vectors to make their usage more useful and meaning
 
 
 .. contents:: Skip To Topic
@@ -77,7 +77,40 @@ Operations on Vectors
 Arithmetic Operations
 ----------------------
 Vector Objects can be added and Subtracted in the same way as other DataTypes in Python
-using ``+`` and ``-`` operator respectively.
+using ``+`` and ``-`` operator respectively. These Operations return a tuple of **cartesian sum**.
+..warning::
+    Addition and Subtraction here is not a Vector Addition or Substraction, and only provides correct result
+    for Cartesian Addition.
+::
+    v = Vector3(1,2,3)
+    v1 = Vector3(4,5,6)
+    print(v+v1)   #outputs => (5,7,9)
+    print(v-v1)   #outputs => (3,3,3)
+
+Logical Operations
+------------------
+Vector objects can be compared with each other using several Logical Operations in the same way as other DataTypes in
+Python.
+
+- == returns True if both Vectors have all same value, else False
+- != returns True if both Vectors have atleast one diffrent coordinate value,else False
+- < returns True if all values of First are smaller than the values of Second Vector, else False
+- > returns True if all values of First are greater than the values of Second Vector, else False
+- <= returns True if all values of First are smaller or equal than the values of Second Vector, else False
+- >= returns True if all values of First are greater or equal than the values of Second Vector, else False
+::
+    v = Vector3(1,2,3)
+    v1 = Vector3(2,5,6)
+    v2 = Vector([1,2,3])
+
+    v == v1   # False
+    v != v1   # True
+    v > v1    #False
+    v < v1    #True
+    v <= v1   #True
+    v >= v1   #False
+
+
 
 Attributes and Methods
 ########################
@@ -109,9 +142,16 @@ The following functions are defined for both **Vector2** and **Vector3** class :
 All These Methods are discussed in upcoming Sections
 
 Attributes
-#########################
+##########
 
 Alike other class Attributes, attributes of Vector Classes can be accessed by ``.`` in between Vector instance and attribute.
+This can also be used to manipulate the values.
 ::
     vector = Vector2(69,420)
-    x = vector.x      #x = 69
+    x = vector.x            #x = 69
+    vector.y = x            #now vectors has value (69,69)
+
+    print(vector.xcor)      #outputs => i
+
+Methods
+#######
