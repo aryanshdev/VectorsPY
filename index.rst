@@ -72,7 +72,7 @@ To create Vector from List, Tuple (iterables) use Miscellaneous function **Vecto
     iterable4 = [3,4,5]
     newVector4 = Vector(iterable4) #new Vector3 object from list
 
-Properties and Methods
+Attributes and Methods
 ########################
 
 Vector objects have following Attributes :-
@@ -101,7 +101,7 @@ The following functions are defined for both **Vector2** and **Vector3** class :
 
 All These Methods are discussed in upcoming Sections
 
-Attributes and Properties
+Attributes
 #########################
 
 Alike other class Attributes, attributes of Vector Classes can be accessed by ``.`` in between Vector instance and attribute.
