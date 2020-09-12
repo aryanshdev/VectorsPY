@@ -44,8 +44,9 @@ Creating Vector Object
 #######################
 
 VectorsPY has to main classes for Vector defination - 
-1. **Vector2** For 2D Vectors
-2. **Vector3** For 3D Vectors
+
+1. **Vector2** For **2D Vectors**
+2. **Vector3** For **3D Vectors**
 
 To create new 2D Vector use **Vector2** class.
 ::
