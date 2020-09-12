@@ -95,4 +95,8 @@ The following functions are defined for both **Vector2** and **Vector3** class :
 - ``.magnitude()``
 - ``.unitvector()``
 
+**Vector2** class specific functions :-
+
+- ``.direction()``
+
 All These Methods are discussed in upcoming Sections
