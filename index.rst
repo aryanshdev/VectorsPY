@@ -100,3 +100,11 @@ The following functions are defined for both **Vector2** and **Vector3** class :
 - ``.direction()``
 
 All These Methods are discussed in upcoming Sections
+
+Attributes and Properties
+#########################
+
+Alike other class Attributes, attributes of Vector Classes can be accessed by ``.`` in between Vector instance and attribute.
+::
+    vector = Vector2(69,420)
+    x = vector.x      #x = 69
