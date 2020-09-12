@@ -31,32 +31,42 @@ Creating Vector Object
 #######################
 
 VectorsPY has to main classes for Vector defination - 
-* **Vector2** For 2D Vectors
-* **Vector3** For 3D Vectors
+1. **Vector2** For 2D Vectors
+2. **Vector3** For 3D Vectors
 
 To create new 2D Vector use **Vector2** class.
-``
-new2DVector = Vector2(x_value, y_value)
-``
+``new2DVector = Vector2(x_value, y_value)``
+
 Similarly use **Vector3** to create 3D Vector.
-``
-new3DVector = Vector3(x_value, y_value, z_value)
-``
+``new3DVector = Vector3(x_value, y_value, z_value)``
 
 
-To create Vector from List, Tuple (iterables) use Miscellaneous function **Vector**. This will return a new ***Vector2*** or ***Vector3*** object based on iterable passed as argument.
-``
+To create Vector from List, Tuple (iterables) use Miscellaneous function **Vector**. This will return a new **Vector2** or **Vector3** object based on iterable passed as argument.
+::
+    iterable1 = [1,2] 
+    newVector1 = Vector(iterable1) #new Vector2 object from list
 
-iterable1 = [1,2] 
-newVector1 = Vector(iterable1) #new Vector2 object from list
-
-iterable2 = (4,5)
-newVector2 = Vector(iterable2) #new Vector2 object from tuple
+    iterable2 = (4,5)
+    newVector2 = Vector(iterable2) #new Vector2 object from tuple
 
 
-iterable3 = (3,4,5)
-newVector3 = Vector(iterable3) #new Vector3 object from tuple
+    iterable3 = (3,4,5)
+    newVector3 = Vector(iterable3) #new Vector3 object from tuple
 
-iterable4 = [3,4,5]
-newVector4 = Vector(iterable4) #new Vector3 object from list
-``
+    iterable4 = [3,4,5]
+    newVector4 = Vector(iterable4) #new Vector3 object from list
+
+Properties and Methods
+########################
+
+By default, Vector objects have following Attributes :
+* xcor 
+* ycor
+* zcor *(only i **Vector3**)*
+* x
+* y
+* z
+
+Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value 
+**i**, **j**, **k** repectively.
+**x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be defined during Vector defination*.
