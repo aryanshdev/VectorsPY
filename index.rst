@@ -17,15 +17,18 @@ Start Using VectorsPY
 
 To start using VectorsPY in your project, you need to import it using conventional commands
 
-``import VectorsPY``
+::
+  import VectorsPY
 
 To import as Variable 
 
-``import VectorsPY as <alias name>
+::
+  import VectorsPY as <alias name>
 
 To import any specific function/class use
 
-``from VectorsPY import <Function/Class Name>(,<Second Function/Class Name,...)``
+::
+  from VectorsPY import <Function/Class Name>(,<Second Function/Class Name,...)
 
 Creating Vector Object
 #######################
@@ -35,10 +38,12 @@ VectorsPY has to main classes for Vector defination -
 2. **Vector3** For 3D Vectors
 
 To create new 2D Vector use **Vector2** class.
-``new2DVector = Vector2(x_value, y_value)``
+::
+   new2DVector = Vector2(x_value, y_value)
 
 Similarly use **Vector3** to create 3D Vector.
-``new3DVector = Vector3(x_value, y_value, z_value)``
+::
+   new3DVector = Vector3(x_value, y_value, z_value)
 
 
 To create Vector from List, Tuple (iterables) use Miscellaneous function **Vector**. This will return a new **Vector2** or **Vector3** object based on iterable passed as argument.
@@ -65,8 +70,8 @@ By default, Vector objects have following Attributes :
 * zcor *(only i **Vector3**)*
 * x
 * y
-* z
+- z
 
 Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value 
-**i**, **j**, **k** repectively.
-**x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be defined during Vector defination*.
+| **i**, **j**, **k** repectively.
+| **x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be |d koefined during Vector defination*.
