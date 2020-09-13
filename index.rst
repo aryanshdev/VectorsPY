@@ -43,7 +43,7 @@ To import any specific function/class use
 Creating Vector Object
 #######################
 
-VectorsPY has to main classes for Vector defination - 
+VectorsPY has two main classes for Vector defination - 
 
 1. **Vector2** For **2D Vectors**
 2. **Vector3** For **3D Vectors**
@@ -130,7 +130,7 @@ Vector objects have following Attributes :-
 
 Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value **i**, **j**, **k** repectively.
 
-And **x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be defined during Vector defination*.
+And **x**, **y**, **z** represent values for Vector in x,y,z axis(es) repectively and are *needed to be defined during Vector defination*.
 
 The following functions are defined for both **Vector2** and **Vector3** class :-
 
