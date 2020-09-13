@@ -1,8 +1,8 @@
 ***********
 VectorsPY
 ***********
-.. image:: https://img.shields.io/github/followers/aryanshdev?label=Follow%20on%20Github&style=social   :alt: GitHub followers
-
+.. image:: https://img.shields.io/github/followers/aryanshdev?label=Follow%20Author%20on%20Github&style=social   :alt: GitHub followers
+.. image:: https://img.shields.io/github/stars/aryanshdev/vectorspy?label=Star%20Project%20on%20Github&style=social   :alt: GitHub stars
 VectorsPY is utility module for using Physics Vectors in Python.
 It allows you to define 2D and 3D Vectors in Python.
 It also provides multiple methods that can be used along Vectors to make their usage more useful and meaning
