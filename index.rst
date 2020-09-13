@@ -159,3 +159,16 @@ This can also be used to manipulate the values.
 
 Methods
 #######
+
+.. note::
+    We'll be using vector2d = Vector2(69,69) and vector3d = Vector3(420,420,420) in up coming demonstrations and snippets.
+
+
+. value()
+---------
+
+| .value() returns the value of Vector Object.
+| Works for both Vector2 and Vector3 Objects ::
+vector2
+
+
