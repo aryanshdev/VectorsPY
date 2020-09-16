@@ -1,7 +1,7 @@
 # VectorsPY
 [![Documentation Status](https://readthedocs.org/projects/vectorspy/badge/?version=latest)](https://vectorspy.readthedocs.io/en/latest/?badge=latest)
-![PyPI](https://img.shields.io/pypi/v/vectorspy)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/vectorspy?style=plastic)
+[![PyPI](https://img.shields.io/pypi/v/vectorspy)](https://pypi.org/project/VectorsPY)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/vectorspy?style=plastic)](https://pypi.org/project/VectorsPY)
 
 Python module to use Vector2 and Vector3 (as in Unity Game Engine - C#) in Python.
 
