@@ -20,7 +20,7 @@ To start using VectorsPY on your system, you need to install it using ``pip``
 
      pip install VectorsPY
 
-You can visit `PYPI <https://pypi.org/project/VectorsPY/>`_ to get older versions of module or to install it using wheel
+You can visit `PyPI <https://pypi.org/project/VectorsPY/>`_ to get older versions of module or to install it using wheel
 
 
 Start Using VectorsPY
@@ -165,8 +165,8 @@ Methods
 .value()
 ---------
 
- .value() returns the value of Vector Object in form of tuple.
- Works for both Vector2 and Vector3 Objects.
+| .value() returns the value of Vector Object in form of tuple.
+| Works for both Vector2 and Vector3 Objects.
 ::
     
     vector2d.value()  # returns (69,69)
