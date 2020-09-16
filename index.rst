@@ -1,7 +1,12 @@
 ***********
 VectorsPY
 ***********
+<<<<<<< HEAD
 
+=======
+.. image:: https://img.shields.io/github/followers/aryanshdev?label=Follow%20Author%20on%20Github&style=social   :alt: GitHub followers
+.. image:: https://img.shields.io/github/stars/aryanshdev/vectorspy?label=Star%20Project%20on%20Github&style=social   :alt: GitHub stars
+>>>>>>> d19f9a787536620f9f610d05b43ae3a160a5d9a0
 VectorsPY is utility module for using Physics Vectors in Python.
 It allows you to define 2D and 3D Vectors in Python.
 It also provides multiple methods that can be used along Vectors to make their usage more useful and meaning
@@ -42,7 +47,7 @@ To import any specific function/class use
 Creating Vector Object
 #######################
 
-VectorsPY has to main classes for Vector defination - 
+VectorsPY has two main classes for Vector defination - 
 
 1. **Vector2** For **2D Vectors**
 2. **Vector3** For **3D Vectors**
@@ -77,12 +82,22 @@ Arithmetic Operations
 ----------------------
 Vector Objects can be added and Subtracted in the same way as other DataTypes in Python
 using ``+`` and ``-`` operator respectively. These Operations return a tuple of **cartesian sum**.
+<<<<<<< HEAD
 .. warning::
     Addition and Subtraction here is not a Vector Addition or Substraction,
     and only provides correct result
     for Cartesian Addition.
 
 ::
+=======
+
+.. warning::
+    Addition and Subtraction here is not a Vector Addition or Substraction, 
+    and only provides correct result for Cartesian Addition.
+
+::
+
+>>>>>>> d19f9a787536620f9f610d05b43ae3a160a5d9a0
     v = Vector3(1,2,3)
     v1 = Vector3(4,5,6)
     print(v+v1)   #outputs => (5,7,9)
@@ -100,6 +115,10 @@ Python.
 - <= returns True if all values of First are smaller or equal than the values of Second Vector, else False
 - >= returns True if all values of First are greater or equal than the values of Second Vector, else False
 ::
+<<<<<<< HEAD
+=======
+
+>>>>>>> d19f9a787536620f9f610d05b43ae3a160a5d9a0
     v = Vector3(1,2,3)
     v1 = Vector3(2,5,6)
     v2 = Vector([1,2,3])
@@ -125,7 +144,7 @@ Vector objects have following Attributes :-
 
 Here, **xcor**, **ycor**, **zcor** are used to represent Vectors in Cartesian form and have value **i**, **j**, **k** repectively.
 
-And **x**, **y**, **z** represent values for Vector in x,y,z axises repectively and are *needed to be defined during Vector defination*.
+And **x**, **y**, **z** represent values for Vector in x,y,z axis(es) repectively and are *needed to be defined during Vector defination*.
 
 The following functions are defined for both **Vector2** and **Vector3** class :-
 
@@ -154,3 +173,16 @@ This can also be used to manipulate the values.
 
 Methods
 #######
+
+.. note::
+    We'll be using vector2d = Vector2(69,69) and vector3d = Vector3(420,420,420) in up coming demonstrations and snippets.
+
+
+. value()
+---------
+
+| .value() returns the value of Vector Object.
+| Works for both Vector2 and Vector3 Objects ::
+vector2
+
+
