@@ -102,6 +102,7 @@ Python.
 - <= returns True if all values of First are smaller or equal than the values of Second Vector, else False
 - >= returns True if all values of First are greater or equal than the values of Second Vector, else False
 ::
+    
     v = Vector3(1,2,3)
     v1 = Vector3(2,5,6)
     v2 = Vector([1,2,3])
@@ -164,9 +165,10 @@ Methods
 .value()
 ---------
 
-| .value() returns the value of Vector Object in form of tuple.
-| Works for both Vector2 and Vector3 Objects.
+ .value() returns the value of Vector Object in form of tuple.
+ Works for both Vector2 and Vector3 Objects.
 ::
+    
     vector2d.value()  # returns (69,69)
     vector3d.value()  # returns (420,420,420)
 
@@ -177,6 +179,7 @@ Methods
 | Works for both Vector2 and Vector3 Objects.
 
 ::
+    
     vector2d.cartesian()  # returns '69i +69j'
     vector3d.cartesian()  # returns '420i + 420j + 420k'
 
@@ -186,6 +189,7 @@ Methods
 | Works for both Vector2 and Vector3 Objects.
 
 ::
+    
     vector2d.magnitude()   # returns 97.58073580374356
     vector3d.magnitude()   # returns 727.4613391789285
 
@@ -195,5 +199,6 @@ Methods
 | Works for both Vector2 and Vector3 Objects.
 
 ::
+    
     vector2d.unitvector()   # returns new Vector2 object
     vector3d.unitvector()   # returns new Vector3 object 
