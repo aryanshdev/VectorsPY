@@ -1,12 +1,8 @@
 ***********
 VectorsPY
 ***********
-<<<<<<< HEAD
-
-=======
 .. image:: https://img.shields.io/github/followers/aryanshdev?label=Follow%20Author%20on%20Github&style=social   :alt: GitHub followers
 .. image:: https://img.shields.io/github/stars/aryanshdev/vectorspy?label=Star%20Project%20on%20Github&style=social   :alt: GitHub stars
->>>>>>> d19f9a787536620f9f610d05b43ae3a160a5d9a0
 VectorsPY is utility module for using Physics Vectors in Python.
 It allows you to define 2D and 3D Vectors in Python.
 It also provides multiple methods that can be used along Vectors to make their usage more useful and meaning
@@ -82,14 +78,6 @@ Arithmetic Operations
 ----------------------
 Vector Objects can be added and Subtracted in the same way as other DataTypes in Python
 using ``+`` and ``-`` operator respectively. These Operations return a tuple of **cartesian sum**.
-<<<<<<< HEAD
-.. warning::
-    Addition and Subtraction here is not a Vector Addition or Substraction,
-    and only provides correct result
-    for Cartesian Addition.
-
-::
-=======
 
 .. warning::
     Addition and Subtraction here is not a Vector Addition or Substraction, 
@@ -97,7 +85,6 @@ using ``+`` and ``-`` operator respectively. These Operations return a tuple of 
 
 ::
 
->>>>>>> d19f9a787536620f9f610d05b43ae3a160a5d9a0
     v = Vector3(1,2,3)
     v1 = Vector3(4,5,6)
     print(v+v1)   #outputs => (5,7,9)
@@ -115,10 +102,6 @@ Python.
 - <= returns True if all values of First are smaller or equal than the values of Second Vector, else False
 - >= returns True if all values of First are greater or equal than the values of Second Vector, else False
 ::
-<<<<<<< HEAD
-=======
-
->>>>>>> d19f9a787536620f9f610d05b43ae3a160a5d9a0
     v = Vector3(1,2,3)
     v1 = Vector3(2,5,6)
     v2 = Vector([1,2,3])
@@ -149,7 +132,7 @@ And **x**, **y**, **z** represent values for Vector in x,y,z axis(es) repectivel
 The following functions are defined for both **Vector2** and **Vector3** class :-
 
 - ``.value()``
-- ``.cartisian()``
+- ``.cartesian()``
 - ``.magnitude()``
 - ``.unitvector()``
 
@@ -178,11 +161,39 @@ Methods
     We'll be using vector2d = Vector2(69,69) and vector3d = Vector3(420,420,420) in up coming demonstrations and snippets.
 
 
-. value()
+.value()
 ---------
 
-| .value() returns the value of Vector Object.
-| Works for both Vector2 and Vector3 Objects ::
-vector2
+| .value() returns the value of Vector Object in form of tuple.
+| Works for both Vector2 and Vector3 Objects.
+::
+    vector2d.value()  # returns (69,69)
+    vector3d.value()  # returns (420,420,420)
 
+.cartesian()
+------------
 
+| .cartesian() returns the value of Vector Object in Cartesian form. Returned object is of type String
+| Works for both Vector2 and Vector3 Objects.
+
+::
+    vector2d.cartesian()  # returns '69i +69j'
+    vector3d.cartesian()  # returns '420i + 420j + 420k'
+
+.magnitude()
+------------
+| .magnitude() returns the magnitude of Vector Object.
+| Works for both Vector2 and Vector3 Objects.
+
+::
+    vector2d.magnitude()   # returns 97.58073580374356
+    vector3d.magnitude()   # returns 727.4613391789285
+
+.unitvector()
+-------------
+| .unitvector() returns a new Vector Object in direction of current Vector Object.
+| Works for both Vector2 and Vector3 Objects.
+
+::
+    vector2d.unitvector()   # returns new Vector2 object
+    vector3d.unitvector()   # returns new Vector3 object 
