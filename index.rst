@@ -2,7 +2,6 @@
 VectorsPY
 ***********
 
-
 VectorsPY is utility module for using Physics Vectors in Python.
 It allows you to define 2D and 3D Vectors in Python.
 It also provides multiple methods that can be used along Vectors to make their usage more useful and meaning
@@ -78,11 +77,12 @@ Arithmetic Operations
 ----------------------
 Vector Objects can be added and Subtracted in the same way as other DataTypes in Python
 using ``+`` and ``-`` operator respectively. These Operations return a tuple of **cartesian sum**.
-..warning::
-    Addition and Subtraction here is not a Vector Addition or Substraction, and only provides correct result
+.. warning::
+    Addition and Subtraction here is not a Vector Addition or Substraction,
+    and only provides correct result
     for Cartesian Addition.
 
-.. code-block:: python
+::
     v = Vector3(1,2,3)
     v1 = Vector3(4,5,6)
     print(v+v1)   #outputs => (5,7,9)
@@ -99,7 +99,7 @@ Python.
 - > returns True if all values of First are greater than the values of Second Vector, else False
 - <= returns True if all values of First are smaller or equal than the values of Second Vector, else False
 - >= returns True if all values of First are greater or equal than the values of Second Vector, else False
-.. code-block:: python
+::
     v = Vector3(1,2,3)
     v1 = Vector3(2,5,6)
     v2 = Vector([1,2,3])
@@ -110,8 +110,6 @@ Python.
     v < v1    #True
     v <= v1   #True
     v >= v1   #False
-
-
 
 Attributes and Methods
 ########################

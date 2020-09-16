@@ -1,5 +1,6 @@
 from math import sin,cos,radians,atan,degrees
 class Vector3:
+    '''class for defining and using 3D Vectors'''
     xcor = 'i'
     ycor = 'j'
     zcor = 'k'   
@@ -48,6 +49,7 @@ class Vector3:
         return '{0}{1} {y}{2}{3} {z}{4}{5}'.format(self.x,self.xcor,self.y,self.ycor,self.z,self.zcor,y = '+' if self.y > 0 else '',z= '+' if self.z > 0 else '' )                                       
 
 class Vector2:
+    '''class for defining and using 2D Vectors'''
     xcor = 'i'
     ycor = 'j'   
     def __init__(self,x,y):
@@ -125,6 +127,12 @@ def cross(a,b,angle = 0):
     else:
         raise NonVectorDataError('invalid type for cross product, not a vector')
 
+def add(a,b,angle = 0):
+    '''gives Vector sum of 2 vectors\n takes angle in Degree measures'''
+    if (isinstance(a,(Vector2,Vector3))) and (isinstance(b,(Vector2,Vector3))):
+        return ((a.magnitude())**2+ (b.magnitude())**2 + 2*a.magnitude()*b.magnitude()*cos(radians(angle)))**0.5
+    else:
+        raise NonVectorDataError('invalid type for Vector Sum, not a vector')
     
 #Custom Error Definations
 
@@ -132,6 +140,6 @@ class NonVectorDataError(Exception):
     def __init__(self,message=None):
         __cause__ = message
 
-class CCWarning(Warning):
+class NonVectorSumWarning(Warning):
     def __init__(self,message=None):
-        __cause__= message
+        __cause__ = message
