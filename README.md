@@ -1,7 +1,7 @@
 # VectorsPY
 [![Documentation Status](https://readthedocs.org/projects/vectorspy/badge/?version=latest)](https://vectorspy.readthedocs.io/en/latest/?badge=latest)
 <br>
-
+![PyPI](https://img.shields.io/pypi/v/vectorspy)
 Python module to use Vector2 and Vector3 (as in Unity Game Engine - C#) in Python.
 
 - Create Vector2 objects for 2D Vectors (x and y coordinate system)
